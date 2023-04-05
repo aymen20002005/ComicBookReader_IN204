@@ -4,11 +4,11 @@ Qt 6.4.0 avec le compilateur MSVC 2019 64bit.
 
 On vous a fourni dans ce projet, 3 dossiers essentiels à l'execution du programme:
 
-opencv (essentiel à la lecture des fichiers .cbz et .cbr en les convertissant à des images d'une certaine format que peut lire opencv)
+    opencv (essentiel à la lecture des fichiers .cbz et .cbr en les convertissant à des images d'une certaine format que peut lire opencv)
 
-libarchive (essentiel aux compressions et décompressions des archives et à l"extraction des images)
+    libarchive (essentiel aux compressions et décompressions des archives et à l"extraction des images)
 
-QtQuick (essentiel à la partie QML du projet et donc à l'interaction avec l'UI du programme)
+    QtQuick (essentiel à la partie QML du projet et donc à l'interaction avec l'UI du programme)
 
 Une fois que vous avez cet environnement, vous ouvrez alors le fichier .pro :
 
