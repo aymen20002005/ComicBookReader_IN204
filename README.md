@@ -30,4 +30,4 @@ Une fois que Qt est ouvert, changez dans ComicBookReader.pro comme suit : (ceci 
 
 Il faut aussi copier le fichier archive.dll (il se trouve dans le dossier libarchive/bin) dans le même dossier que le dossier du build du projet.
 
-Il faut aussi verifier si votre version de Qt contient QtQuick, sinon vous pouvez copier le dossier dans le dossier source de Qt.
+Il faut aussi verifier si votre version de Qt contient QtQuick, sinon vous pouvez copier le dossier QtQuick que nous avons fourni dans le dossier source de Qt.
