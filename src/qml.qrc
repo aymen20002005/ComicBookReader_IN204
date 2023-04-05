@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>CustomButton.qml</file>
+        <file>CustomSlider.qml</file>
+        <file>icons/back.png</file>
+        <file>icons/dossier.jpg</file>
+        <file>icons/forward.png</file>
+        <file>icons/full-screen-icon.png</file>
+        <file>icons/two.jpg</file>
+        <file>icons/zoomiconin.png</file>
+        <file>icons/zoomiconout.png</file>
+        <file>icons/go.png</file>
+        <file>icons/bookmark.png</file>
+        <file>icons/dossier.png</file>
+        <file>icons/two.png</file>
+        <file>icons/next.jpg</file>
+    </qresource>
+</RCC>
