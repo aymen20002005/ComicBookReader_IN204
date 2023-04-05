@@ -13,11 +13,16 @@ Une fois que Qt est ouvert, changez dans ComicBookReader.pro comme suit : (ceci 
 INCLUDEPATH +=  < chemin vers le dossier comicBookReader >/opencv/include
 
 LIBS += < chemin vers le dossier comicBookReader >/opencv/bin/libopencv_core454.dll
-LIBS +=  < chemin vers le dossier comicBookReader >/opencv/bin/libopencv_imgcodecs454.dll
-LIBS +=  <chemin vers le dossier comicBookReader>/opencv/bin/libopencv_imgproc454.dll
-LIBS +=  <chemin vers le dossier comicBookReader>/opencv/bin/libopencv_highgui454.dll
-LIBS +=  <chemin vers le dossier comicBookReader>/opencv/bin/libopencv_features2d454.dll
-LIBS +=  <chemin vers le dossier comicBookReader>/opencv/bin/libopencv_calib3d454.dll
+
+LIBS +=  <  chemin vers le dossier comicBookReader  >/opencv/bin/libopencv_imgcodecs454.dll
+
+LIBS +=  <  chemin vers le dossier comicBookReader >/opencv/bin/libopencv_imgproc454.dll
+  
+LIBS +=  <  chemin vers le dossier comicBookReader  >/opencv/bin/libopencv_highgui454.dll
+  
+LIBS +=  < chemin vers le dossier comicBookReader >/opencv/bin/libopencv_features2d454.dll
+  
+LIBS +=  < chemin vers le dossier comicBookReader >/opencv/bin/libopencv_calib3d454.dll
 
 Il faut aussi copier le fichier archive.dll (il se trouve dans le dossier libarchive/bin) dans le même dossier que le dossier du build du projet.
 
