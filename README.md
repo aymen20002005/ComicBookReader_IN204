@@ -9,7 +9,9 @@ QtQuick (essentiel à la partie QML du projet et donc à l'interaction avec l'UI
 
 Une fois que vous avez cet environnement, vous ouvrez alors le fichier .pro :
 Une fois que Qt est ouvert, changez dans ComicBookReader.pro comme suit : (ceci vous permettera d'accéder aux fichiers supplémentaires requis pour exécuter le programme)
+
 INCLUDEPATH +=  <chemin vers le dossier comicBookReader>/opencv/include
+
 LIBS += <chemin vers le dossier comicBookReader>/opencv/bin/libopencv_core454.dll
 LIBS +=  <chemin vers le dossier comicBookReader>/opencv/bin/libopencv_imgcodecs454.dll
 LIBS +=  <chemin vers le dossier comicBookReader>/opencv/bin/libopencv_imgproc454.dll
